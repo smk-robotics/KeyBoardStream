@@ -1,7 +1,7 @@
 # KeyBoardStream
 
-This is console application that checks keyboard events and print what button was pressed/released. Uses only standart unistd library.
+This is the console application that checks keyboard events and prints the button that was pressed/released. It uses only typical unistd library.
 
-Needs to be set correct `deviceInputAdress` in **KeyBoardStream.cpp**.
+It is necessary to set the correct `deviceInputAdress` in **KeyBoardStream.cpp**.
 
-Needs to be run as **root**.
+Should be run as **root**.
