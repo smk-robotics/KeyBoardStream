@@ -7,7 +7,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-const char *deviceInputAdress = "/dev/input/event15"; //// Путь до файла с событиями нужного устройства.
+const char *deviceInputAdress = "/dev/input/event3"; //// Путь до файла с событиями нужного устройства.
 char deviceName[256] = "Unknown"; //// Переменная для имени устройства, события которого будут считываться.
 
 int main (int argc, char *argv[])

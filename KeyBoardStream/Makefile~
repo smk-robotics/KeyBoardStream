@@ -1,6 +1,0 @@
-CC = gcc
-#CFLAGS=-I/usr/include/SDL2 -D_REENTRANT -g -Wall  
-#LIBS=-L/usr/lib/x86_64-linux-gnu -lSDL2
-
-all: 
-	$(CC) $(CFLAGS) src/KeyBoardStream.cpp -o KeyBoardStream $(LIBS)

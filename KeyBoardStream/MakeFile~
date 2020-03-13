@@ -1,2 +1,0 @@
-all:
-	g++ /src/KeyBoardStream.cpp -o KeyBoardStream
